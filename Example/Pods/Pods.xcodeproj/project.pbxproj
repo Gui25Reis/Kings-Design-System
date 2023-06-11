@@ -54,7 +54,7 @@
 		32CD41175D02722DCE35653145D347E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4235AE0319BD1B8D88A7864EC64DF40A /* HelloWorld.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
 		4D767575D7D1673AAB8329A5A9166F19 /* DSKings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSKings.release.xcconfig; sourceTree = "<group>"; };
-		4EB6D184F8515E5C4E615245214F6099 /* DSKings */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DSKings; path = DSKings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB6D184F8515E5C4E615245214F6099 /* DSKings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSKings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		86E0610CB695A65D4B9CAB6F9424D4BE /* Pods-DSKings_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSKings_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8FD88EAACE1A6D6664E738F2B38BBCCC /* Pods-DSKings_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSKings_Example-Info.plist"; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8D03A72148B5851EDC987758BC4E6B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AB97C1B7F1E5743D2C6EA886F9B49409 /* DSKings.unit-unittests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DSKings.unit-unittests.debug.xcconfig"; sourceTree = "<group>"; };
-		ADBE6D06BFC9284DD0B59D7EE82E46C0 /* DSKings-Unit-UnitTests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "DSKings-Unit-UnitTests"; path = "DSKings-Unit-UnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBE6D06BFC9284DD0B59D7EE82E46C0 /* DSKings-Unit-UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DSKings-Unit-UnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B33593DC6CB8400378304830A0D09E8D /* DSKings-Unit-UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DSKings-Unit-UnitTests-Info.plist"; sourceTree = "<group>"; };
 		B42C133E32D0613EAEF661136C73CCB2 /* DSKings-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSKings-umbrella.h"; sourceTree = "<group>"; };
 		B67B12AC51EBA89338F38FEC75924FE7 /* Pods-DSKings_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSKings_Example-dummy.m"; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 		C09A8725F27F9B2E6E255E131AA679F0 /* DSKings-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DSKings-Info.plist"; sourceTree = "<group>"; };
 		C1361DD984CCD509DA37CFF79B08500E /* Pods-DSKings_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSKings_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C6E7FA1BC34B7E07077E7EE8EC51744D /* Pods-DSKings_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSKings_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E29EA860CCB9C6FD69CCB40ACBE8360D /* Pods-DSKings_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DSKings_Example"; path = Pods_DSKings_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29EA860CCB9C6FD69CCB40ACBE8360D /* Pods_DSKings_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSKings_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F2158327BBB5CBA66DDBAF3BC256C3 /* DSKings-Unit-UnitTests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSKings-Unit-UnitTests-prefix.pch"; sourceTree = "<group>"; };
 		E81BF23EAD204588A366E8509A171B76 /* DSKings.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DSKings.modulemap; sourceTree = "<group>"; };
 		EB223CE6102B225A5849A29E7848474C /* DSKings-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSKings-prefix.pch"; sourceTree = "<group>"; };
@@ -232,9 +232,9 @@
 		9B9FD3FF33289B9B0EE60E50B58DEAD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EB6D184F8515E5C4E615245214F6099 /* DSKings */,
-				ADBE6D06BFC9284DD0B59D7EE82E46C0 /* DSKings-Unit-UnitTests */,
-				E29EA860CCB9C6FD69CCB40ACBE8360D /* Pods-DSKings_Example */,
+				4EB6D184F8515E5C4E615245214F6099 /* DSKings.framework */,
+				ADBE6D06BFC9284DD0B59D7EE82E46C0 /* DSKings-Unit-UnitTests.xctest */,
+				E29EA860CCB9C6FD69CCB40ACBE8360D /* Pods_DSKings_Example.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -314,7 +314,7 @@
 			);
 			name = DSKings;
 			productName = DSKings;
-			productReference = 4EB6D184F8515E5C4E615245214F6099 /* DSKings */;
+			productReference = 4EB6D184F8515E5C4E615245214F6099 /* DSKings.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		70E64BC1EE5FBB9455F834C3A587A71A /* DSKings-Unit-UnitTests */ = {
@@ -333,7 +333,7 @@
 			);
 			name = "DSKings-Unit-UnitTests";
 			productName = "DSKings-Unit-UnitTests";
-			productReference = ADBE6D06BFC9284DD0B59D7EE82E46C0 /* DSKings-Unit-UnitTests */;
+			productReference = ADBE6D06BFC9284DD0B59D7EE82E46C0 /* DSKings-Unit-UnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E5F90CEA4D113CF3A145FBB5FF8A3917 /* Pods-DSKings_Example */ = {
@@ -352,7 +352,7 @@
 			);
 			name = "Pods-DSKings_Example";
 			productName = Pods_DSKings_Example;
-			productReference = E29EA860CCB9C6FD69CCB40ACBE8360D /* Pods-DSKings_Example */;
+			productReference = E29EA860CCB9C6FD69CCB40ACBE8360D /* Pods_DSKings_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -361,8 +361,9 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1430;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -484,14 +485,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = "Target Support Files/Pods-DSKings_Example/Pods-DSKings_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -499,6 +499,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS)";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DSKings_Example/Pods-DSKings_Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -541,14 +543,13 @@
 			baseConfigurationReference = ECC6F4D2C60DD0C1A504BCBE21971E69 /* DSKings.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PREFIX_HEADER = "Target Support Files/DSKings/DSKings-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DSKings/DSKings-Info.plist";
@@ -556,6 +557,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS)";
 				MODULEMAP_FILE = "Target Support Files/DSKings/DSKings.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_MODULE_NAME = DSKings;
 				PRODUCT_NAME = DSKings;
 				SDKROOT = iphoneos;
@@ -597,14 +600,13 @@
 			baseConfigurationReference = 4D767575D7D1673AAB8329A5A9166F19 /* DSKings.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/DSKings/DSKings-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DSKings/DSKings-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -615,6 +617,8 @@
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "Target Support Files/DSKings/DSKings.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_MODULE_NAME = DSKings;
 				PRODUCT_NAME = DSKings;
 				SDKROOT = iphoneos;
@@ -663,6 +667,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -687,7 +692,6 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -730,6 +734,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -750,7 +755,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
@@ -764,14 +768,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-DSKings_Example/Pods-DSKings_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -782,6 +785,8 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DSKings_Example/Pods-DSKings_Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
