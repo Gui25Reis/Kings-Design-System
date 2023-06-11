@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D5BF460DF959AA4F5974D1D40A4D09F /* Blabla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1CA0A8442A153142412CF444E5239 /* Blabla.swift */; };
-		439FE288D1894F6AE33933162C80682D /* DSKings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4053A057798FA17210B71E9FE01175 /* DSKings-dummy.m */; };
-		7C9685C23C9D15C32F816887F7B81909 /* DSKings-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59005797D00009DF897FBC7767549D9F /* DSKings-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC26BC52A3610AF00C36146 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC26BC42A3610AF00C36146 /* Media.xcassets */; };
+		1DC26BC82A3610CE00C36146 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DC26BC72A3610CE00C36146 /* Localizable.strings */; };
+		1DC26BCA2A3610F900C36146 /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC26BC92A3610F900C36146 /* Texts.swift */; };
+		1DC26BCC2A36112E00C36146 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC26BCB2A36112E00C36146 /* Localizable.swift */; };
+		1DC26BCF2A36127F00C36146 /* Bundle+myBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC26BCE2A36127F00C36146 /* Bundle+myBundle.swift */; };
+		439FE288D1894F6AE33933162C80682D /* DSKings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0087A0FB79EF73D328B8BD9EAFAC3F01 /* DSKings-dummy.m */; };
+		6CA5B28430F731DCB88B650C87AB508F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7C9685C23C9D15C32F816887F7B81909 /* DSKings-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B42C133E32D0613EAEF661136C73CCB2 /* DSKings-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		999A5BF8B1857B3BEA61038BF65BB533 /* Pods-DSKings_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB54F303878C1A77D11ECB05DB9A14EC /* Pods-DSKings_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A16CA081AABCAF4648ACF27B9245E2A7 /* Pods-DSKings_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B67B12AC51EBA89338F38FEC75924FE7 /* Pods-DSKings_Example-dummy.m */; };
-		AA853BAEDAB9EBD9961B89A3351B0385 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6E5DE0B1139F761950EDD92D9FDA7 /* HelloWorld.swift */; };
+		AA853BAEDAB9EBD9961B89A3351B0385 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4235AE0319BD1B8D88A7864EC64DF40A /* HelloWorld.swift */; };
+		ADDAF102AA3673F00AB77B3D18B86D60 /* GeneralTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A74E08114D3BC6369787B211FECC2BD /* GeneralTest.swift */; };
 		B39389E3A8E34DE5221AC003118F6AE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CB6320C685DF8C4FA5BC678A995DBC15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E3E4FB557395DB4914FB10F2A7DCF8E2 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3028FB02F4F4F7896A7E27F11AAEF3E5 /* Assets.swift */; };
+		E3E4FB557395DB4914FB10F2A7DCF8E2 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919DF901A0B122AFE0688550477D6C81 /* Assets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A15C6A116E654737E3194F3F8D0556E0 /* PBXContainerItemProxy */ = {
+		52534AFA174840B81C03EAD283B487CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AC14C58777A989431A5B3D6716CFAC6;
+			remoteInfo = DSKings;
+		};
+		6B111F40DA92FE7A24A47EAFEE4AE1B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,35 +42,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E4D5987AA224FF02107946E8EE3AEE /* DSKings-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DSKings-Info.plist"; sourceTree = "<group>"; };
-		0E40F9793CC92999CF86443D62AA8D9D /* DSKings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSKings.debug.xcconfig; sourceTree = "<group>"; };
+		0087A0FB79EF73D328B8BD9EAFAC3F01 /* DSKings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DSKings-dummy.m"; sourceTree = "<group>"; };
+		1DC26BC42A3610AF00C36146 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		1DC26BC72A3610CE00C36146 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		1DC26BC92A3610F900C36146 /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
+		1DC26BCB2A36112E00C36146 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		1DC26BCE2A36127F00C36146 /* Bundle+myBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+myBundle.swift"; sourceTree = "<group>"; };
 		2A54C01F6912BD6094ED976D05A4661B /* Pods-DSKings_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DSKings_Example.modulemap"; sourceTree = "<group>"; };
-		3028FB02F4F4F7896A7E27F11AAEF3E5 /* Assets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
-		3DF1CA0A8442A153142412CF444E5239 /* Blabla.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Blabla.swift; sourceTree = "<group>"; };
-		47C6E5DE0B1139F761950EDD92D9FDA7 /* HelloWorld.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
+		2A74E08114D3BC6369787B211FECC2BD /* GeneralTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeneralTest.swift; path = DSKings/Tests/GeneralTest.swift; sourceTree = "<group>"; };
+		2D1B808423DD036B851E05EC05E1DDAE /* DSKings.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DSKings.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		32CD41175D02722DCE35653145D347E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4235AE0319BD1B8D88A7864EC64DF40A /* HelloWorld.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
+		4D767575D7D1673AAB8329A5A9166F19 /* DSKings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSKings.release.xcconfig; sourceTree = "<group>"; };
 		4EB6D184F8515E5C4E615245214F6099 /* DSKings */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DSKings; path = DSKings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59005797D00009DF897FBC7767549D9F /* DSKings-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSKings-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		86E0610CB695A65D4B9CAB6F9424D4BE /* Pods-DSKings_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSKings_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8C3CB358A124CE1A55F13D123FE664A4 /* DSKings.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DSKings.modulemap; sourceTree = "<group>"; };
 		8FD88EAACE1A6D6664E738F2B38BBCCC /* Pods-DSKings_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSKings_Example-Info.plist"; sourceTree = "<group>"; };
+		919DF901A0B122AFE0688550477D6C81 /* Assets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		94CF4F86FE1D5C504518C55C19694D7D /* Pods-DSKings_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSKings_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		997E87A3B9CB45C6687AFFA34534AD99 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8D03A72148B5851EDC987758BC4E6B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AB97C1B7F1E5743D2C6EA886F9B49409 /* DSKings.unit-unittests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DSKings.unit-unittests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADBE6D06BFC9284DD0B59D7EE82E46C0 /* DSKings-Unit-UnitTests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "DSKings-Unit-UnitTests"; path = "DSKings-Unit-UnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33593DC6CB8400378304830A0D09E8D /* DSKings-Unit-UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DSKings-Unit-UnitTests-Info.plist"; sourceTree = "<group>"; };
+		B42C133E32D0613EAEF661136C73CCB2 /* DSKings-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSKings-umbrella.h"; sourceTree = "<group>"; };
 		B67B12AC51EBA89338F38FEC75924FE7 /* Pods-DSKings_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSKings_Example-dummy.m"; sourceTree = "<group>"; };
+		B77314465F12AFCF8A62576D13FB7E0C /* DSKings.unit-unittests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DSKings.unit-unittests.release.xcconfig"; sourceTree = "<group>"; };
+		C09A8725F27F9B2E6E255E131AA679F0 /* DSKings-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DSKings-Info.plist"; sourceTree = "<group>"; };
 		C1361DD984CCD509DA37CFF79B08500E /* Pods-DSKings_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSKings_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C2B4397925D58586BD573F9451AF872A /* DSKings.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DSKings.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C6E7FA1BC34B7E07077E7EE8EC51744D /* Pods-DSKings_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSKings_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DF4053A057798FA17210B71E9FE01175 /* DSKings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DSKings-dummy.m"; sourceTree = "<group>"; };
 		E29EA860CCB9C6FD69CCB40ACBE8360D /* Pods-DSKings_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DSKings_Example"; path = Pods_DSKings_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E573A621D28DAF880765CB3DCA707174 /* DSKings-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSKings-prefix.pch"; sourceTree = "<group>"; };
-		EC141A0285D9148F5ED8057B6CFA8342 /* DSKings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSKings.release.xcconfig; sourceTree = "<group>"; };
+		E5F2158327BBB5CBA66DDBAF3BC256C3 /* DSKings-Unit-UnitTests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSKings-Unit-UnitTests-prefix.pch"; sourceTree = "<group>"; };
+		E81BF23EAD204588A366E8509A171B76 /* DSKings.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DSKings.modulemap; sourceTree = "<group>"; };
+		EB223CE6102B225A5849A29E7848474C /* DSKings-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSKings-prefix.pch"; sourceTree = "<group>"; };
+		ECC6F4D2C60DD0C1A504BCBE21971E69 /* DSKings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSKings.debug.xcconfig; sourceTree = "<group>"; };
 		EECE958AC4A1E9FF554FD4BBD3CD9CE4 /* Pods-DSKings_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSKings_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F2623DDB616D8AC3A2BF975C8B93D6BB /* DSKings-Unit-UnitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "DSKings-Unit-UnitTests-frameworks.sh"; sourceTree = "<group>"; };
 		FB54F303878C1A77D11ECB05DB9A14EC /* Pods-DSKings_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSKings_Example-umbrella.h"; sourceTree = "<group>"; };
-		FCB0EFDD9F8A1B5B04C2B2703E118601 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0CBB661C88E77F003B48A07FD159FF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA5B28430F731DCB88B650C87AB508F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BD3704309184039C30FCE600776985DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,47 +109,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		018ECF9DCC9E145F464C102B7C34092D /* Development Pods */ = {
+		1DC26BC32A36109900C36146 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				FC4CD23D9D6026CDEEBA50C80A3C586A /* DSKings */,
+				1DC26BC42A3610AF00C36146 /* Media.xcassets */,
+				919DF901A0B122AFE0688550477D6C81 /* Assets.swift */,
 			);
-			name = "Development Pods";
+			path = Assets;
 			sourceTree = "<group>";
 		};
-		0BB9FE14CA8051DBC1410A18AFB1C8A1 /* Support Files */ = {
+		1DC26BC62A3610B800C36146 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
-				8C3CB358A124CE1A55F13D123FE664A4 /* DSKings.modulemap */,
-				DF4053A057798FA17210B71E9FE01175 /* DSKings-dummy.m */,
-				00E4D5987AA224FF02107946E8EE3AEE /* DSKings-Info.plist */,
-				E573A621D28DAF880765CB3DCA707174 /* DSKings-prefix.pch */,
-				59005797D00009DF897FBC7767549D9F /* DSKings-umbrella.h */,
-				0E40F9793CC92999CF86443D62AA8D9D /* DSKings.debug.xcconfig */,
-				EC141A0285D9148F5ED8057B6CFA8342 /* DSKings.release.xcconfig */,
+				1DC26BC72A3610CE00C36146 /* Localizable.strings */,
+				1DC26BC92A3610F900C36146 /* Texts.swift */,
+				1DC26BCB2A36112E00C36146 /* Localizable.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DSKings";
+			path = Strings;
 			sourceTree = "<group>";
 		};
-		1B61BF09D48A8FF877BE80810E0A9379 /* Classes */ = {
+		1DC26BCD2A36125E00C36146 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				47C6E5DE0B1139F761950EDD92D9FDA7 /* HelloWorld.swift */,
-				FF8836C109E926832FE3A639B58508D3 /* Blabla */,
+				1DC26BCE2A36127F00C36146 /* Bundle+myBundle.swift */,
 			);
-			name = Classes;
-			path = DSKings/Classes;
-			sourceTree = "<group>";
-		};
-		27556F92D053E7354EC3C3606393355D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C2B4397925D58586BD573F9451AF872A /* DSKings.podspec */,
-				997E87A3B9CB45C6687AFFA34534AD99 /* LICENSE */,
-				FCB0EFDD9F8A1B5B04C2B2703E118601 /* README.md */,
-			);
-			name = Pod;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		2EF7D25F1CE9375EB4AA380912D0DA8B /* Pods-DSKings_Example */ = {
@@ -137,13 +153,54 @@
 			path = "Target Support Files/Pods-DSKings_Example";
 			sourceTree = "<group>";
 		};
-		49FF720AB2CCE750C72DBB46343710DC /* Resources */ = {
+		500E58782953484AA30C0FBB8A4E2780 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3028FB02F4F4F7896A7E27F11AAEF3E5 /* Assets.swift */,
+				4235AE0319BD1B8D88A7864EC64DF40A /* HelloWorld.swift */,
 			);
-			name = Resources;
-			path = DSKings/Resources;
+			name = Classes;
+			path = DSKings/Classes;
+			sourceTree = "<group>";
+		};
+		521F34E14987154602D2CC6384B0D22C /* DSKings */ = {
+			isa = PBXGroup;
+			children = (
+				500E58782953484AA30C0FBB8A4E2780 /* Classes */,
+				79BF0582988C26CF4429EC630854B0E0 /* Pod */,
+				B7A86020A602650A8348D800C3305886 /* Resources */,
+				55C6112A18BA06F785BD4EDCAD8996F9 /* Support Files */,
+				BCAB37F4E255B3C15D16B036CAF81E31 /* UnitTests */,
+			);
+			name = DSKings;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		552988F79573B6483B5032F76E8A3855 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				521F34E14987154602D2CC6384B0D22C /* DSKings */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		55C6112A18BA06F785BD4EDCAD8996F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E81BF23EAD204588A366E8509A171B76 /* DSKings.modulemap */,
+				0087A0FB79EF73D328B8BD9EAFAC3F01 /* DSKings-dummy.m */,
+				C09A8725F27F9B2E6E255E131AA679F0 /* DSKings-Info.plist */,
+				EB223CE6102B225A5849A29E7848474C /* DSKings-prefix.pch */,
+				B42C133E32D0613EAEF661136C73CCB2 /* DSKings-umbrella.h */,
+				F2623DDB616D8AC3A2BF975C8B93D6BB /* DSKings-Unit-UnitTests-frameworks.sh */,
+				B33593DC6CB8400378304830A0D09E8D /* DSKings-Unit-UnitTests-Info.plist */,
+				E5F2158327BBB5CBA66DDBAF3BC256C3 /* DSKings-Unit-UnitTests-prefix.pch */,
+				ECC6F4D2C60DD0C1A504BCBE21971E69 /* DSKings.debug.xcconfig */,
+				4D767575D7D1673AAB8329A5A9166F19 /* DSKings.release.xcconfig */,
+				AB97C1B7F1E5743D2C6EA886F9B49409 /* DSKings.unit-unittests.debug.xcconfig */,
+				B77314465F12AFCF8A62576D13FB7E0C /* DSKings.unit-unittests.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DSKings";
 			sourceTree = "<group>";
 		};
 		563E2BC97FFFB09FA2576571B78B6977 /* Targets Support Files */ = {
@@ -162,22 +219,52 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		76A7E8529DEF6A43BC09011CFA9065D6 /* Products */ = {
+		79BF0582988C26CF4429EC630854B0E0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2D1B808423DD036B851E05EC05E1DDAE /* DSKings.podspec */,
+				A8D03A72148B5851EDC987758BC4E6B7 /* LICENSE */,
+				32CD41175D02722DCE35653145D347E4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9B9FD3FF33289B9B0EE60E50B58DEAD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				4EB6D184F8515E5C4E615245214F6099 /* DSKings */,
+				ADBE6D06BFC9284DD0B59D7EE82E46C0 /* DSKings-Unit-UnitTests */,
 				E29EA860CCB9C6FD69CCB40ACBE8360D /* Pods-DSKings_Example */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B7A86020A602650A8348D800C3305886 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DC26BCD2A36125E00C36146 /* Extension */,
+				1DC26BC62A3610B800C36146 /* Strings */,
+				1DC26BC32A36109900C36146 /* Assets */,
+			);
+			name = Resources;
+			path = DSKings/Resources;
+			sourceTree = "<group>";
+		};
+		BCAB37F4E255B3C15D16B036CAF81E31 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A74E08114D3BC6369787B211FECC2BD /* GeneralTest.swift */,
+			);
+			name = UnitTests;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				018ECF9DCC9E145F464C102B7C34092D /* Development Pods */,
+				552988F79573B6483B5032F76E8A3855 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				76A7E8529DEF6A43BC09011CFA9065D6 /* Products */,
+				9B9FD3FF33289B9B0EE60E50B58DEAD4 /* Products */,
 				563E2BC97FFFB09FA2576571B78B6977 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -188,27 +275,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FC4CD23D9D6026CDEEBA50C80A3C586A /* DSKings */ = {
-			isa = PBXGroup;
-			children = (
-				1B61BF09D48A8FF877BE80810E0A9379 /* Classes */,
-				27556F92D053E7354EC3C3606393355D /* Pod */,
-				49FF720AB2CCE750C72DBB46343710DC /* Resources */,
-				0BB9FE14CA8051DBC1410A18AFB1C8A1 /* Support Files */,
-			);
-			name = DSKings;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		FF8836C109E926832FE3A639B58508D3 /* Blabla */ = {
-			isa = PBXGroup;
-			children = (
-				3DF1CA0A8442A153142412CF444E5239 /* Blabla.swift */,
-			);
-			name = Blabla;
-			path = Blabla;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +317,25 @@
 			productReference = 4EB6D184F8515E5C4E615245214F6099 /* DSKings */;
 			productType = "com.apple.product-type.framework";
 		};
+		70E64BC1EE5FBB9455F834C3A587A71A /* DSKings-Unit-UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3549DBAD0571210FE140C21BDE49C25E /* Build configuration list for PBXNativeTarget "DSKings-Unit-UnitTests" */;
+			buildPhases = (
+				8CB6B519530E317142100762EA5B3B45 /* Sources */,
+				0CBB661C88E77F003B48A07FD159FF0B /* Frameworks */,
+				297CD9B8AF242441B5E8AB9D54338D94 /* Resources */,
+				59D331D150E3B168CCEFDAA5801B1938 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C7565FD435865E7A059A8DBE01B792B /* PBXTargetDependency */,
+			);
+			name = "DSKings-Unit-UnitTests";
+			productName = "DSKings-Unit-UnitTests";
+			productReference = ADBE6D06BFC9284DD0B59D7EE82E46C0 /* DSKings-Unit-UnitTests */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E5F90CEA4D113CF3A145FBB5FF8A3917 /* Pods-DSKings_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E7B488FF3B1C33BD6139436A6A0D371 /* Build configuration list for PBXNativeTarget "Pods-DSKings_Example" */;
@@ -263,7 +348,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B4259189845C485BE50363372DB046EC /* PBXTargetDependency */,
+				AB33DC3C1D901A3CB7912D4BDB2EF448 /* PBXTargetDependency */,
 			);
 			name = "Pods-DSKings_Example";
 			productName = Pods_DSKings_Example;
@@ -288,11 +373,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 76A7E8529DEF6A43BC09011CFA9065D6 /* Products */;
+			productRefGroup = 9B9FD3FF33289B9B0EE60E50B58DEAD4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4AC14C58777A989431A5B3D6716CFAC6 /* DSKings */,
+				70E64BC1EE5FBB9455F834C3A587A71A /* DSKings-Unit-UnitTests */,
 				E5F90CEA4D113CF3A145FBB5FF8A3917 /* Pods-DSKings_Example */,
 			);
 		};
@@ -306,14 +392,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0A03016366C372912C47598ACCF9EB0 /* Resources */ = {
+		297CD9B8AF242441B5E8AB9D54338D94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0A03016366C372912C47598ACCF9EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC26BC52A3610AF00C36146 /* Media.xcassets in Resources */,
+				1DC26BC82A3610CE00C36146 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59D331D150E3B168CCEFDAA5801B1938 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/DSKings/DSKings-Unit-UnitTests-frameworks-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/DSKings/DSKings-Unit-UnitTests-frameworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/DSKings/DSKings-Unit-UnitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4F20C0C98A02A1BE0812709542ECF8D2 /* Sources */ = {
@@ -324,25 +439,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CB6B519530E317142100762EA5B3B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDAF102AA3673F00AB77B3D18B86D60 /* GeneralTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC5DBFB7CC78A2D763C6A2B6EDF8B07A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E3E4FB557395DB4914FB10F2A7DCF8E2 /* Assets.swift in Sources */,
-				2D5BF460DF959AA4F5974D1D40A4D09F /* Blabla.swift in Sources */,
 				439FE288D1894F6AE33933162C80682D /* DSKings-dummy.m in Sources */,
+				1DC26BCA2A3610F900C36146 /* Texts.swift in Sources */,
+				1DC26BCC2A36112E00C36146 /* Localizable.swift in Sources */,
 				AA853BAEDAB9EBD9961B89A3351B0385 /* HelloWorld.swift in Sources */,
+				1DC26BCF2A36127F00C36146 /* Bundle+myBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B4259189845C485BE50363372DB046EC /* PBXTargetDependency */ = {
+		3C7565FD435865E7A059A8DBE01B792B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DSKings;
 			target = 4AC14C58777A989431A5B3D6716CFAC6 /* DSKings */;
-			targetProxy = A15C6A116E654737E3194F3F8D0556E0 /* PBXContainerItemProxy */;
+			targetProxy = 52534AFA174840B81C03EAD283B487CA /* PBXContainerItemProxy */;
+		};
+		AB33DC3C1D901A3CB7912D4BDB2EF448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DSKings;
+			target = 4AC14C58777A989431A5B3D6716CFAC6 /* DSKings */;
+			targetProxy = 6B111F40DA92FE7A24A47EAFEE4AE1B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -382,9 +513,32 @@
 			};
 			name = Debug;
 		};
+		57DD464E439702587BA41A7DCF72F986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77314465F12AFCF8A62576D13FB7E0C /* DSKings.unit-unittests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DSKings/DSKings-Unit-UnitTests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DSKings/DSKings-Unit-UnitTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = "DSKings-Unit-UnitTests";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.7;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		6826959220E30525190A3853D179E784 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E40F9793CC92999CF86443D62AA8D9D /* DSKings.debug.xcconfig */;
+			baseConfigurationReference = ECC6F4D2C60DD0C1A504BCBE21971E69 /* DSKings.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -414,9 +568,33 @@
 			};
 			name = Debug;
 		};
+		6DB7A3923C52E96731A75686F26877AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB97C1B7F1E5743D2C6EA886F9B49409 /* DSKings.unit-unittests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "Target Support Files/DSKings/DSKings-Unit-UnitTests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DSKings/DSKings-Unit-UnitTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS)";
+				PRODUCT_NAME = "DSKings-Unit-UnitTests";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.7;
+			};
+			name = Debug;
+		};
 		8C0D32CBB64A3F9182A4D4DE74090419 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC141A0285D9148F5ED8057B6CFA8342 /* DSKings.release.xcconfig */;
+			baseConfigurationReference = 4D767575D7D1673AAB8329A5A9166F19 /* DSKings.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -622,6 +800,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3549DBAD0571210FE140C21BDE49C25E /* Build configuration list for PBXNativeTarget "DSKings-Unit-UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB7A3923C52E96731A75686F26877AA /* Debug */,
+				57DD464E439702587BA41A7DCF72F986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3E7B488FF3B1C33BD6139436A6A0D371 /* Build configuration list for PBXNativeTarget "Pods-DSKings_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -1,8 +1,15 @@
 platform :ios, '15.0'
 use_frameworks!
+install! 'cocoapods'
+
+def local_pod
+  pod 'DSKings',
+      :path => '../',
+      :testspecs => ['UnitTests']
+end
 
 target 'DSKings_Example' do
-    pod 'DSKings', :path => '../'
+    local_pod
 end
 
 post_install do |installer|

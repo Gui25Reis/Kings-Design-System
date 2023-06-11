@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
     s.resource = 'DSKings/Resources/**/*.{xcassets, strings}'
     s.source_files = 'DSKings/Classes/**/*.{swift,h,m}', 'DSKings/Resources/**/*.{swift,h,m}'
 
-  #   s.test_spec 'Tests' do [test_spec]
-  #     test_spec.source_files = 'KSDTeste/Tests/**/*{swift,plist}'
-  #   end
+    s.test_spec 'UnitTests' do |test_spec|
+        test_spec.source_files = 'DSKings/Tests/**/*.{swift,plist}'
+    end
     
     # s.frameworks = 'UIKit', 'MapKit'
     # s.dependency 'AFNetworking', '~> 2.3'

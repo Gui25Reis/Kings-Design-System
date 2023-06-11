@@ -22,5 +22,12 @@
   "source_files": [
     "DSKings/Classes/**/*.{swift,h,m}",
     "DSKings/Resources/**/*.{swift,h,m}"
+  ],
+  "testspecs": [
+    {
+      "name": "UnitTests",
+      "test_type": "unit",
+      "source_files": "DSKings/Tests/**/*.{swift,plist}"
+    }
   ]
 }
