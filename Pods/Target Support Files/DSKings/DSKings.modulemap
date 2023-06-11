@@ -1,6 +1,0 @@
-framework module DSKings {
-  umbrella header "DSKings-umbrella.h"
-
-  export *
-  module * { export * }
-}
