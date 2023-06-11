@@ -1,3 +1,5 @@
-class HelloWorld {
+
+open class HelloWorld {
     
+    public init() {}
 }

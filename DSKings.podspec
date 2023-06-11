@@ -10,8 +10,9 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '15.0'
   
-    s.resource = 'DSKings/Resources/**/*{xcassets}'
-    s.source_files = 'DSKings/Classes/**/*{swift,h,m}'
+    s.resource = 'DSKings/Resources/**/*.{xcassets, strings}'
+    s.source_files = 'DSKings/Classes/**/*.{swift,h,m}', 'DSKings/Resources/**/*.{swift,h,m}'
+
   #   s.test_spec 'Tests' do [test_spec]
   #     test_spec.source_files = 'KSDTeste/Tests/**/*{swift,plist}'
   #   end
@@ -19,4 +20,3 @@ Pod::Spec.new do |s|
     # s.frameworks = 'UIKit', 'MapKit'
     # s.dependency 'AFNetworking', '~> 2.3'
   end
-  

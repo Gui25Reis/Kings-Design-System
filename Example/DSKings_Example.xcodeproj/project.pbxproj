@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		1D0FF68E2A35E53F00FF5CDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FF68D2A35E53F00FF5CDD /* AppDelegate.swift */; };
 		1D0FF6902A35E53F00FF5CDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FF68F2A35E53F00FF5CDD /* SceneDelegate.swift */; };
-		1D0FF6922A35E53F00FF5CDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FF6912A35E53F00FF5CDD /* ViewController.swift */; };
+		1D0FF6922A35E53F00FF5CDD /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FF6912A35E53F00FF5CDD /* ExampleViewController.swift */; };
 		1D0FF6952A35E53F00FF5CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0FF6932A35E53F00FF5CDD /* Main.storyboard */; };
 		1D0FF6972A35E54000FF5CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0FF6962A35E54000FF5CDD /* Assets.xcassets */; };
 		1D0FF69A2A35E54000FF5CDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0FF6982A35E54000FF5CDD /* LaunchScreen.storyboard */; };
+		FC29256D5313B91194E2C014 /* Pods_DSKings_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E705431A78CF8A8AE60620 /* Pods_DSKings_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D0FF68A2A35E53F00FF5CDD /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0FF68A2A35E53F00FF5CDD /* DSKings_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSKings_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0FF68D2A35E53F00FF5CDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D0FF68F2A35E53F00FF5CDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1D0FF6912A35E53F00FF5CDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D0FF6912A35E53F00FF5CDD /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 		1D0FF6942A35E53F00FF5CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D0FF6962A35E54000FF5CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D0FF6992A35E54000FF5CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D0FF69B2A35E54000FF5CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E705431A78CF8A8AE60620 /* Pods_DSKings_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSKings_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE297A41AD7387E5676B7448 /* Pods-DSKings_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSKings_Example.debug.xcconfig"; path = "Target Support Files/Pods-DSKings_Example/Pods-DSKings_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D0D5FE37FA95D4987A428F52 /* Pods-DSKings_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSKings_Example.release.xcconfig"; path = "Target Support Files/Pods-DSKings_Example/Pods-DSKings_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC29256D5313B91194E2C014 /* Pods_DSKings_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,13 +47,15 @@
 			children = (
 				1D0FF68C2A35E53F00FF5CDD /* Example */,
 				1D0FF68B2A35E53F00FF5CDD /* Products */,
+				81E393FE7A907B5E1EDD55B9 /* Pods */,
+				E1CA0A2F94B3843AE73378B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		1D0FF68B2A35E53F00FF5CDD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D0FF68A2A35E53F00FF5CDD /* Example.app */,
+				1D0FF68A2A35E53F00FF5CDD /* DSKings_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +65,7 @@
 			children = (
 				1D0FF68D2A35E53F00FF5CDD /* AppDelegate.swift */,
 				1D0FF68F2A35E53F00FF5CDD /* SceneDelegate.swift */,
-				1D0FF6912A35E53F00FF5CDD /* ViewController.swift */,
+				1D0FF6912A35E53F00FF5CDD /* ExampleViewController.swift */,
 				1D0FF6932A35E53F00FF5CDD /* Main.storyboard */,
 				1D0FF6962A35E54000FF5CDD /* Assets.xcassets */,
 				1D0FF6982A35E54000FF5CDD /* LaunchScreen.storyboard */,
@@ -67,24 +74,43 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
+		81E393FE7A907B5E1EDD55B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE297A41AD7387E5676B7448 /* Pods-DSKings_Example.debug.xcconfig */,
+				D0D5FE37FA95D4987A428F52 /* Pods-DSKings_Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E1CA0A2F94B3843AE73378B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78E705431A78CF8A8AE60620 /* Pods_DSKings_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D0FF6892A35E53F00FF5CDD /* Example */ = {
+		1D0FF6892A35E53F00FF5CDD /* DSKings_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D0FF69E2A35E54000FF5CDD /* Build configuration list for PBXNativeTarget "Example" */;
+			buildConfigurationList = 1D0FF69E2A35E54000FF5CDD /* Build configuration list for PBXNativeTarget "DSKings_Example" */;
 			buildPhases = (
+				7BB945A4EE59C177F82E6569 /* [CP] Check Pods Manifest.lock */,
 				1D0FF6862A35E53F00FF5CDD /* Sources */,
 				1D0FF6872A35E53F00FF5CDD /* Frameworks */,
 				1D0FF6882A35E53F00FF5CDD /* Resources */,
+				91A7E842515E7B8A0A80021E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Example;
+			name = DSKings_Example;
 			productName = Example;
-			productReference = 1D0FF68A2A35E53F00FF5CDD /* Example.app */;
+			productReference = 1D0FF68A2A35E53F00FF5CDD /* DSKings_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1D0FF6852A35E53F00FF5CDD /* Build configuration list for PBXProject "Example" */;
+			buildConfigurationList = 1D0FF6852A35E53F00FF5CDD /* Build configuration list for PBXProject "DSKings_Example" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D0FF6892A35E53F00FF5CDD /* Example */,
+				1D0FF6892A35E53F00FF5CDD /* DSKings_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -133,12 +159,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7BB945A4EE59C177F82E6569 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DSKings_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A7E842515E7B8A0A80021E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSKings_Example/Pods-DSKings_Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSKings_Example/Pods-DSKings_Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSKings_Example/Pods-DSKings_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D0FF6862A35E53F00FF5CDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D0FF6922A35E53F00FF5CDD /* ViewController.swift in Sources */,
+				1D0FF6922A35E53F00FF5CDD /* ExampleViewController.swift in Sources */,
 				1D0FF68E2A35E53F00FF5CDD /* AppDelegate.swift in Sources */,
 				1D0FF6902A35E53F00FF5CDD /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +350,7 @@
 		};
 		1D0FF69F2A35E54000FF5CDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE297A41AD7387E5676B7448 /* Pods-DSKings_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +379,7 @@
 		};
 		1D0FF6A02A35E54000FF5CDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D5FE37FA95D4987A428F52 /* Pods-DSKings_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -339,7 +409,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D0FF6852A35E53F00FF5CDD /* Build configuration list for PBXProject "Example" */ = {
+		1D0FF6852A35E53F00FF5CDD /* Build configuration list for PBXProject "DSKings_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D0FF69C2A35E54000FF5CDD /* Debug */,
@@ -348,7 +418,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D0FF69E2A35E54000FF5CDD /* Build configuration list for PBXNativeTarget "Example" */ = {
+		1D0FF69E2A35E54000FF5CDD /* Build configuration list for PBXNativeTarget "DSKings_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D0FF69F2A35E54000FF5CDD /* Debug */,
