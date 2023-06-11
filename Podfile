@@ -2,7 +2,7 @@ use_frameworks!
 
 platform :ios, '15.0'
 
-target 'KSDTeste_Example' do
-  pod 'KSDTeste', :path => '../'
+target 'DSKings_Example' do
+  pod 'DSKings', :path => '.'
 
 end

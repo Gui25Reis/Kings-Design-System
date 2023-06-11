@@ -16,6 +16,7 @@
 		1D0FF66A2A35D69100FF5CDD /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FF6692A35D69100FF5CDD /* ExampleViewController.swift */; };
 		1D0FF66F2A35D69300FF5CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0FF66E2A35D69300FF5CDD /* Assets.xcassets */; };
 		1D0FF6722A35D69300FF5CDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0FF6702A35D69300FF5CDD /* LaunchScreen.storyboard */; };
+		517B16261FBA4236DB3EFABB /* Pods_DSKings_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4B33C9B6E1B1F3CC250F90 /* Pods_DSKings_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,9 @@
 		1D0FF66E2A35D69300FF5CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D0FF6712A35D69300FF5CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D0FF6732A35D69300FF5CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A9E55147C0E2A8989E3737 /* Pods-DSKings_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSKings_Example.debug.xcconfig"; path = "Target Support Files/Pods-DSKings_Example/Pods-DSKings_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9B4B33C9B6E1B1F3CC250F90 /* Pods_DSKings_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSKings_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61826DC903E84EE688C1AC9 /* Pods-DSKings_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSKings_Example.release.xcconfig"; path = "Target Support Files/Pods-DSKings_Example/Pods-DSKings_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +67,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517B16261FBA4236DB3EFABB /* Pods_DSKings_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F25D1B8E652C719A561729E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B4B33C9B6E1B1F3CC250F90 /* Pods_DSKings_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1D0FF6382A35D1B200FF5CDD = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +89,8 @@
 				1D0FF6562A35D3EE00FF5CDD /* DSKingsTests */,
 				1D0FF6642A35D69100FF5CDD /* DSKings_Example */,
 				1D0FF6432A35D1B200FF5CDD /* Products */,
+				9EB5AE6A63DF5C2922CD5C77 /* Pods */,
+				0F25D1B8E652C719A561729E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +132,15 @@
 				1D0FF6732A35D69300FF5CDD /* Info.plist */,
 			);
 			path = DSKings_Example;
+			sourceTree = "<group>";
+		};
+		9EB5AE6A63DF5C2922CD5C77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46A9E55147C0E2A8989E3737 /* Pods-DSKings_Example.debug.xcconfig */,
+				B61826DC903E84EE688C1AC9 /* Pods-DSKings_Example.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D0FF6742A35D69300FF5CDD /* Build configuration list for PBXNativeTarget "DSKings_Example" */;
 			buildPhases = (
+				44F17EB2428DC79ACAEA25CA /* [CP] Check Pods Manifest.lock */,
 				1D0FF65F2A35D69000FF5CDD /* Sources */,
 				1D0FF6602A35D69000FF5CDD /* Frameworks */,
 				1D0FF6612A35D69000FF5CDD /* Resources */,
+				957C67675B574D2752AAF961 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +279,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44F17EB2428DC79ACAEA25CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DSKings_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		957C67675B574D2752AAF961 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSKings_Example/Pods-DSKings_Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSKings_Example/Pods-DSKings_Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSKings_Example/Pods-DSKings_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D0FF63E2A35D1B200FF5CDD /* Sources */ = {
@@ -438,6 +506,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +540,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,6 +592,7 @@
 		};
 		1D0FF6752A35D69300FF5CDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A9E55147C0E2A8989E3737 /* Pods-DSKings_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -549,6 +620,7 @@
 		};
 		1D0FF6762A35D69300FF5CDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61826DC903E84EE688C1AC9 /* Pods-DSKings_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,23 @@
+{
+  "name": "DSKings",
+  "version": "0.0.1",
+  "summary": "Um design system usado para projetos pessoais.",
+  "description": "Um design system usado para projetos pessoais.",
+  "homepage": "https://github.com/gui25reis/Kings-Design-System",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Gui Reis": "gui.sreis25@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/gui25reis/Kings-Design-System.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "resources": "DSKings/**/*{xcassets}",
+  "source_files": "DSKings/**/*{swift,h,m}"
+}

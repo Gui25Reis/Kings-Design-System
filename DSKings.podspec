@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '15.0'
   
-    s.resource = 'KSDTeste/**/*{xcassets}'
-    s.source_files = 'KSDTeste/**/*{swift,h,m}'
+    s.resource = 'DSKings/**/*{xcassets}'
+    s.source_files = 'DSKings/**/*{swift,h,m}'
   #   s.test_spec 'Tests' do [test_spec]
   #     test_spec.source_files = 'KSDTeste/Tests/**/*{swift,plist}'
   #   end
